@@ -1,0 +1,100 @@
+<!DOCTYPE hmtl>
+<html>
+	<head>
+		<meta charset="utf-8">		
+		<title>Mint > Start Here</title>
+		<link type="text/html" rel="stylesheet" href="assets/stylesheets/main.css">
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<div class="logo-container"><a href="index.html"><img src="assets/images/mint-logo.svg" class="logo"></a></div>
+				<div class="tabs">
+					<div class="active-tab">Sign up</div><div>Log in</div>
+				</div>
+			</nav>
+		</header>
+
+		<section>
+			<div class="section-header">
+				<h1>Create a new account</h1>
+				<div class="submit-error">Oops! Please fix the problem with the <span></span> below</div>
+			</div>
+			<div class="section-body">
+				<div class="form-container">
+					<form action="/create" method="post" id="sign-up-form">
+						<div class="text-field">
+							<label for="email">Your Email</label>
+							<input type="email" name="email" id="email">
+						</div>
+						<div class="text-field">
+							<label for="email_confirm">Confirm Email</label>
+							<input type="email" name="email_confirm" id="email_confirm">
+						</div>
+						<div class="text-field">
+							<label for="country">Country</label>
+							<select name="country">
+								<option value="United States" selected>United States</option>
+								<option value="Canada">Canada</option>
+							</select>
+						</div>
+						<div class="text-field">
+							<label for="zip_code">Zip Code</label>
+							<input type="text" name="zip_code" id="zip_code" maxlength="5">
+						</div>
+						<div class="text-field">
+							<label for="password">Password</label>
+							<input type="password" name="password" id="password" maxlength="32">
+						</div>
+						<div class="text-field">
+							<label for="password_confirm">Confirm Password</label>
+							<input type="password" name="password_confirm" id="password_confirm" maxlength="32">
+						</div>
+						<div id="terms-container">
+							<input type="checkbox" name="terms_of_use">
+							<label>Yes, I agree to the Mint <a href="index.html">Terms of Use</a>.</label>
+						</div>
+						<div>
+							<input type="submit" name="submit" value="SIGN UP" class="btn">
+						</div>
+					</form>
+				</div><!-- 
+		 --><div class="info-container">
+					<div class="info-box">
+						<h2>Why you'll love it</h2>
+						<ul>
+							<li>See all your accounts in one place</li>
+							<li>Set a budget and pay down your debt</li>
+							<li>Find the best ways to grow your money</li>
+							<li>Stay <a href="index.html">safe and secure</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<nav class="footer-nav">
+				<ul>
+					<li><a href="index.html">Support Community</a></li>
+					<li><a href="index.html">Terms of Use</a></li>
+					<li><a href="index.html">Privacy</a></li>
+					<li><a href="index.html">Legal and Trademark Notices</a></li>
+					<li><a href="index.html">About Intuit</a></li>
+				</ul>
+			</nav>
+			<div class="cert-container">
+				<img src="assets/images/norton-logo.svg" id="norton">
+				<img src="assets/images/truste-logo.svg" id="truste">
+			</div>
+			<div class="copyright">
+				&#169; 2015 Intuit, Inc.  |  ph6916.16 - spa55.7
+			</div>
+		</footer>
+
+		<script src="assets/js/jquery-2.1.4.min.js"></script>
+		<script src="assets/js/jquery.validate.js"></script>
+		<script src="assets/js/application.js"></script>
+	</body>
+</html>

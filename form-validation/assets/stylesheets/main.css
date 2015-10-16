@@ -1,0 +1,340 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Universal */
+
+body {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 60px;
+	font-family: "AvenirLTStd-Heavy", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #333;
+}
+
+section {
+	box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+	padding: 40px;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: 600;
+}
+
+h2	{
+	font-size: 18px;
+}
+
+nav {
+	margin: 15px 0;
+	position: relative;
+}
+
+/* Header */
+
+.logo-container {
+	display: inline-block;
+}
+
+.tabs {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.tabs div {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.tabs div:last-child {
+	border-left: 1px solid #d3d3d3;
+}
+
+.active-tab {
+	font-weight: bold;
+}
+
+.logo {
+	width: 90;
+}
+
+/* Section */
+
+.section-header {
+	margin-bottom: 40px;
+}
+
+.section-body > div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.form-container {
+	width: 60%;
+}
+
+.info-container {
+	padding-left: 6%;
+	color: #666;
+	width: 40%;
+	height: 85%;
+	border-left: solid 1px #d3d3d3;
+	box-sizing: border-box;	
+}
+
+#sign-up-form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#sign-up-form {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.text-field {
+	height: 80px;
+}
+
+.text-field input,
+.text-field select {
+	width: 70%;
+	height: 28px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	color: #666;
+}
+
+#zip_code {
+	width: 23.3%;
+}
+
+#terms-container {
+	height: 60px;
+}
+
+#terms-container label {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+#terms-container input {
+	display: inline-block;
+}
+
+#terms-container a {
+	font-size: 14px;
+	color: #006ea4;
+	text-decoration: none;
+}
+
+#terms-container a:hover {
+	text-decoration: underline;
+}
+
+.btn {
+	background-color: #45cae6;
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	padding: 15px 20px;
+	font-size: 12px;
+}
+
+.info-box {
+	background-color: #f5f5f5;
+	padding: 20px;
+}
+
+.info-box h2 {
+	margin: 10px 0;
+}
+
+.info-box a {
+	color: #666;
+}
+
+.info-box ul {
+	font-size: 12px;
+	list-style-type: initial;
+	padding-left: 20px;
+	line-height: 125%;
+}
+
+.info-box ul li {
+	margin-top: 5px;
+}
+
+/* Footer */
+
+footer {
+	height: 250px;
+}
+
+.footer-nav {
+	text-align: center;
+	margin: 35px 0;
+}
+
+.footer-nav ul li {
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 12px;
+	color: #a5a5a5;
+	border-right: 1px solid #a5a5a5;
+}
+
+.footer-nav ul li:last-child {
+	border-right: none;
+}
+
+.footer-nav a {
+	color: #a5a5a5;
+	text-decoration: none;
+}
+
+.
+.footer-nav a:hover {
+	text-decoration: underline;
+}
+
+.cert-container {
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.cert-container img {
+	vertical-align: center;
+}
+
+#norton {
+	width: 100px;
+	margin: 0 20px;
+}
+
+#truste {
+	width: 140px;
+	margin-bottom: 10px;
+}
+
+.copyright {
+	font-size: 11px;
+	color: #a5a5a5;
+	text-align: center;
+}
+
+/*
+  ========================================
+  Validation
+  ========================================
+*/
+form > div {
+  position: relative;
+}
+
+div.error {
+	background: url("https://images.mint.com/web-client/images/icons/form-ajax-iam.png") no-repeat scroll 270px 29px transparent;
+}
+
+div.good {
+	background: url("https://images.mint.com/web-client/images/icons/form-ajax-iam.png") no-repeat scroll 270px -70px transparent;
+}
+
+.form-container label.error {
+  color: #bd1a00;
+  font: 200 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  bottom: 3px;
+}
+#terms-container label.error {
+  color: #bd1a00;
+  top: 21px;
+  left: 3px;
+}
+.form-container input.error {
+  border-color: #bd1a00;
+}
+
+/* Submit error */
+.section-header {
+  position: relative;
+}
+.submit-error {
+  color: #bd1a00;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+  display: none;
+}
+
+/* Submit success */
+.message {
+  color: #3f9f3f;
+  background-color: #deefe9;
+  width: 500px;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -250px;
+  font: 400 22px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.message p {
+  padding-top: 15px;
+}
+.message p:last-child {
+  font-weight: bold;
+}
