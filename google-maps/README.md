@@ -1,5 +1,9 @@
-Project: Putting Google Maps Onto Your Site with Javascript
+Project: Google Maps
 
-Link: http://www.theodinproject.com/javascript-and-jquery/putting-google-maps-onto-your-site?ref=lnav
+Link: http://www.theodinproject.com/javascript-and-jquery/putting-google-maps-onto-your-site
 
-Preview: https://htmlpreview.github.io/?https://github.com/thomascpan/google-maps/blob/master/index.html
+Description: A webpage utilizing Google Maps API. 
+
+Author(s): Thomas Pan
+
+Preview: https://rawgit.com/thomascpan/javascript_and_jquery/master/google-maps/index.html

@@ -1,5 +1,9 @@
 Project: Tic Tac Toe in Javascript
 
-Link: http://www.theodinproject.com/javascript-and-jquery/tic-tac-toe?ref=lnav
+Link: http://www.theodinproject.com/javascript-and-jquery/tic-tac-toe
 
-Preview: https://htmlpreview.github.io/?https://github.com/thomascpan/tic-tac-toe/blob/master/index.html
+Description: [Tic Tac Toe](https://en.wikipedia.org/wiki/Tic-tac-toe) using JavaScript. 
+
+Author(s): Thomas Pan
+
+Preview: https://rawgit.com/thomascpan/javascript_and_jquery/master/tic-tac-toe/index.html

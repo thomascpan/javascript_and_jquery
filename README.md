@@ -9,10 +9,10 @@ List of Projects:
 * Restaurant
 * Snake
 * Image-Carousel
-* Members Only
-* Private Events
-* Odin-Kittens
-* Odin Flight Booker
+* Tic Tac Toe
+* Form Validation
+* Infinite Scroll
+* Google Maps
 
 Note: Some larger projects are excluded from this repository and may be hosted seperately. 
 

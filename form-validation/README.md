@@ -1,5 +1,9 @@
-Project: Validating a Form with jQuery
+Project: Form Validation
 
-Link: http://www.theodinproject.com/javascript-and-jquery/validating-a-form-with-jquery?ref=lnav
+Link: http://www.theodinproject.com/javascript-and-jquery/validating-a-form-with-jquery
 
-Preview: https://htmlpreview.github.io/?https://raw.githubusercontent.com/thomascpan/form-validation/master/index.html
+Description: Form validation using JavaScript. 
+
+Author(s): Thomas Pan
+
+Preview: https://rawgit.com/thomascpan/javascript_and_jquery/master/form-validation/index.html
