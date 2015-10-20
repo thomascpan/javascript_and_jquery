@@ -6,7 +6,7 @@ Description: Javascript is taking over the world right now -- web applications a
 
 List of Projects:
 * Calculator
-* Micro-Reddit
+* Restaurant
 * Rest Tester
 * Re-Former
 * Members Only

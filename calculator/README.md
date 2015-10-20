@@ -1,6 +1,6 @@
 Project: Calculator
 
-http://www.theodinproject.com/javascript-and-jquery/on-screen-calculator
+Link: http://www.theodinproject.com/javascript-and-jquery/on-screen-calculator
 
 Description: An on screen calculator in JavaScript. 
 
