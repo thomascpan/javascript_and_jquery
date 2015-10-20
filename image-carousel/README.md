@@ -1,5 +1,9 @@
-Project: Creating an Image Carousel/Slider in Javascript
+Project: Image Carousel
 
-Link: http://www.theodinproject.com/javascript-and-jquery/creating-an-image-carousel-slider?ref=lnav
+Link: http://www.theodinproject.com/javascript-and-jquery/creating-an-image-carousel-slider
 
-Preview: https://htmlpreview.github.io/?https://github.com/thomascpan/image-carousel/blob/master/index.html
+Description: Image Carousel/Slider using JavaScript. 
+
+Author(s): Thomas Pan
+
+Preview: https://rawgit.com/thomascpan/javascript_and_jquery/master/image-carousel/index.html

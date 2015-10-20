@@ -7,8 +7,8 @@ Description: Javascript is taking over the world right now -- web applications a
 List of Projects:
 * Calculator
 * Restaurant
-* Rest Tester
-* Re-Former
+* Snake
+* Image-Carousel
 * Members Only
 * Private Events
 * Odin-Kittens
